@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Applied Condition filter]]>
+    </line>
+    <line>
+      <![CDATA[Applied Price filter]]>
+    </line>
+    <line>
+      <![CDATA[Applied Location filter]]>
+    </line>
+    <line>
+      <![CDATA[Condition, Location and Price Filter Got Selected]]>
+    </line>
+    <line>
+      <![CDATA[Condition, Location and Price Filters Got applied successfully and validated]]>
+    </line>
+    <line>
+      <![CDATA[Searched for mobile and clicked on Search button]]>
+    </line>
+    <line>
+      <![CDATA[First search result displaying product successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-07-20T04:22:49 IST" name="Suite" finished-at="2024-07-20T04:23:30 IST" duration-ms="40955">
+    <groups>
+    </groups>
+    <test started-at="2024-07-20T04:22:49 IST" name="Validate Phone With Filters" finished-at="2024-07-20T04:23:30 IST" duration-ms="40955">
+      <class name="tests.EbayTest">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:tests.EbayTest@d41f816]" started-at="2024-07-20T04:22:49 IST" name="initDriver" finished-at="2024-07-20T04:22:55 IST" duration-ms="6430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="accessProductByCategoryAndFilterTest()[pri:0, instance:tests.EbayTest@d41f816]" started-at="2024-07-20T04:22:55 IST" name="accessProductByCategoryAndFilterTest" description="Access product via category after applying multiple filters" finished-at="2024-07-20T04:23:20 IST" duration-ms="24974" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Applied Condition filter]]>
+            </line>
+            <line>
+              <![CDATA[Applied Price filter]]>
+            </line>
+            <line>
+              <![CDATA[Applied Location filter]]>
+            </line>
+            <line>
+              <![CDATA[Condition, Location and Price Filter Got Selected]]>
+            </line>
+            <line>
+              <![CDATA[Condition, Location and Price Filters Got applied successfully and validated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- accessProductByCategoryAndFilterTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.EbayTest@d41f816]" started-at="2024-07-20T04:23:21 IST" name="closeBrowser" finished-at="2024-07-20T04:23:21 IST" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:tests.EbayTest@d41f816]" started-at="2024-07-20T04:23:21 IST" name="initDriver" finished-at="2024-07-20T04:23:26 IST" duration-ms="4215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="accessProductBySearchTest()[pri:0, instance:tests.EbayTest@d41f816]" started-at="2024-07-20T04:23:26 IST" name="accessProductBySearchTest" description="Access a product via search" finished-at="2024-07-20T04:23:29 IST" duration-ms="3235" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Searched for mobile and clicked on Search button]]>
+            </line>
+            <line>
+              <![CDATA[First search result displaying product successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- accessProductBySearchTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.EbayTest@d41f816]" started-at="2024-07-20T04:23:29 IST" name="closeBrowser" finished-at="2024-07-20T04:23:30 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="tearDriver()[pri:0, instance:tests.EbayTest@d41f816]" started-at="2024-07-20T04:23:31 IST" name="tearDriver" finished-at="2024-07-20T04:23:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDriver -->
+      </class> <!-- tests.EbayTest -->
+    </test> <!-- Validate Phone With Filters -->
+  </suite> <!-- Suite -->
+</testng-results>

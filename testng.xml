@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+    <listeners>
+        <listener class-name="listener.Listeners" />
+    </listeners>
+    <test name="Validate Phone With Filters">
+        <classes>
+            <class name="tests.EbayTest">
+<!--                <methods>-->
+<!--                    <include name="validateApplyFilterFunctionality" />-->
+<!--                    <include name="accessProductBySearchTest" />-->
+<!--                </methods>-->
+            </class>
+<!--            <class name="tests.EbayTest">-->
+<!--                <methods>-->
+<!--                    <include name="validateApplyFilterFunctionality" />-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>
